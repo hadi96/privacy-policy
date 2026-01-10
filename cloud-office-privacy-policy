@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Cloud Office</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #d83b01;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #323130;
+            margin-top: 30px;
+        }
+        .meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #999;
+        }
+        .disclaimer {
+            background-color: #fff4ce;
+            padding: 15px;
+            border-left: 5px solid #ffb900;
+            margin: 20px 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
 
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective Date: January 11, 2026</p>
+
+    <p>This Privacy Policy describes how your personal information is handled by the <strong>Cloud Office</strong> mobile application (the "Application"). We are committed to protecting your privacy and ensuring transparency regarding our data handling practices.</p>
+
+    <h2>1. Overview</h2>
+    <p>The Application is an independent browser utility designed to facilitate access to Microsoft Office 365 web services. It functions as a specialized interface that renders official Microsoft web endpoints within a secure environment.</p>
+
+    <h2>2. No Data Collection</h2>
+    <p><strong>We do not collect, store, or process any personal data.</strong></p>
+    <p>The Application does not have a backend server and does not transmit any user information to us or any third party other than Microsoft’s official servers.</p>
+    <ul>
+        <li><strong>Authentication:</strong> All login procedures are performed directly on Microsoft’s official authentication servers. The Application does not see, intercept, or store your credentials.</li>
+        <li><strong>Documents:</strong> Your files are stored directly on your personal or organization’s OneDrive/SharePoint storage. We have no access to your data.</li>
+        <li><strong>Analytics:</strong> We do not use any third-party analytics or tracking software.</li>
+    </ul>
+
+    <h2>3. Use of Permissions</h2>
+    <p>To provide a functional Office experience, the Application may request the following permissions:</p>
+    <ul>
+        <li><strong>Camera & Microphone:</strong> Used exclusively for features such as Microsoft Teams meetings or voice-to-text. This data is never recorded or stored by the Application.</li>
+        <li><strong>Storage:</strong> Used solely to allow downloading documents to your device or uploading local files to your cloud storage.</li>
+        <li><strong>Internet Access:</strong> Required to connect to Microsoft Office 365 services.</li>
+    </ul>
+
+    <h2>4. Third-Party Services</h2>
+    <p>By using this Application, you are also subject to <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank">Microsoft’s Privacy Statement</a>.</p>
+    <p>The Application may display advertisements through <strong>Google AdMob</strong>. Google may use device identifiers to serve ads. View <a href="https://policies.google.com/privacy" target="_blank">Google’s Privacy Policy</a> for more details.</p>
+
+    <div class="disclaimer">
+        <strong>Disclaimer:</strong> This Application is an independent utility and is <strong>NOT</strong> affiliated with, authorized, or endorsed by Microsoft Corporation.
+    </div>
+
+    <h2>5. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at: <strong>[Masukkan Email Anda Disini]</strong></p>
+
+    <div class="footer">
+        &copy; 2026 Cloud Office Utility. All rights reserved.
+    </div>
+</div>
+
+</body>
+</html>
