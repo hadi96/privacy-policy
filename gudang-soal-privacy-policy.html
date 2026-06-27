@@ -15,91 +15,150 @@
 </head>
 <body>
   <h1>Kebijakan Privasi – Gudang Soal CPNS</h1>
-  <small class="updated">Terakhir diperbarui: 7 Jan 2026</small>
+  <small class="updated">Terakhir diperbarui: 27 Juni 2026</small>
 
   <section>
-    <p>Aplikasi <strong>Gudang Soal CPNS</strong> dikelola oleh <strong>[Nama Pengelola/Tim Anda]</strong> (“Kami”). Kebijakan ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi data Anda.</p>
+    <p>
+      Aplikasi <strong>Latihan Soal CPNS</strong> (Gudang Soal CPNS) dikelola oleh
+      <strong>ShopeCasper</strong> (“Kami”). Kebijakan ini menjelaskan bagaimana kami
+      mengumpulkan, menggunakan, dan melindungi data Anda saat menggunakan aplikasi.
+    </p>
+    <p>
+      Dengan menggunakan aplikasi, Anda setuju dengan kebijakan privasi ini.
+      Jika tidak setuju, harap hentikan penggunaan aplikasi.
+    </p>
   </section>
 
   <section>
     <h2>1. Data yang Kami Kumpulkan</h2>
     <ul>
-      <li><strong>Data akun:</strong> email dan nama (jika diisi) melalui login Firebase.</li>
-      <li><strong>Data penggunaan:</strong> log akses, jenis perangkat, versi aplikasi, performa, crash report.</li>
-      <li><strong>Konten pengguna:</strong> hasil tryout, skor, rating/ulasan dalam aplikasi.</li>
-      <li><strong>File/media:</strong> bila Anda mengunggah konten (mis. CSV soal) di sisi admin.</li>
+      <li><strong>Data akun:</strong> alamat email dan identitas pengguna melalui Firebase Authentication.</li>
+      <li><strong>Data latihan:</strong> hasil tryout, skor, progres, peringkat, riwayat percobaan, dan penggunaan harian.</li>
+      <li><strong>Data perangkat:</strong> informasi perangkat, versi aplikasi, dan data sesi untuk keamanan login satu perangkat.</li>
+      <li><strong>Data langganan:</strong> status langganan PRO dan verifikasi pembelian melalui Google Play Billing (kami tidak menyimpan detail kartu kredit).</li>
+      <li><strong>Data iklan:</strong> Advertising ID (jika tersedia), interaksi iklan, dan preferensi consent iklan melalui Google AdMob.</li>
+      <li><strong>Konten pengguna:</strong> rating, ulasan, laporan soal, dan unggahan admin (mis. CSV soal atau gambar) bila Anda memiliki akses admin.</li>
     </ul>
   </section>
 
   <section>
     <h2>2. Cara Pengumpulan</h2>
     <ul>
-      <li>Melalui pendaftaran/login (Firebase Auth).</li>
-      <li>Melalui aktivitas dalam aplikasi (Firestore/Realtime Database/Storage).</li>
-      <li>Melalui analitik & crash reporting (mis. Firebase Analytics, Crashlytics) bila diaktifkan.</li>
+      <li>Melalui pendaftaran dan login (Firebase Authentication).</li>
+      <li>Melalui aktivitas dalam aplikasi yang disimpan di Supabase (database dan penyimpanan file).</li>
+      <li>Melalui Google Play Billing saat Anda membeli langganan PRO.</li>
+      <li>Melalui Google AdMob saat iklan ditampilkan kepada pengguna gratis.</li>
+      <li>Melalui Firebase App Check untuk membantu mencegah penyalahgunaan layanan.</li>
     </ul>
   </section>
 
   <section>
     <h2>3. Tujuan Penggunaan</h2>
     <ul>
-      <li>Menyediakan fungsi utama tryout, penyimpanan hasil, dan analitik kemajuan.</li>
+      <li>Menyediakan fitur tryout, analisis hasil, peringkat, dan progres belajar.</li>
+      <li>Mengelola akun, sesi perangkat, dan keamanan aplikasi.</li>
+      <li>Mengelola langganan PRO dan batas penggunaan harian pengguna gratis.</li>
+      <li>Menampilkan iklan kepada pengguna gratis melalui Google AdMob.</li>
       <li>Menyempurnakan kualitas soal, fitur, dan stabilitas aplikasi.</li>
-      <li>Menangani bug/crash serta dukungan pengguna.</li>
-      <li>Kepatuhan hukum bila diperlukan.</li>
+      <li>Menangani dukungan pengguna dan kepatuhan hukum bila diperlukan.</li>
     </ul>
   </section>
 
   <section>
-    <h2>4. Berbagi Data</h2>
-    <p>Kami <strong>tidak menjual</strong> data Anda. Data dapat dibagikan kepada:</p>
+    <h2>4. Layanan Pihak Ketiga</h2>
+    <p>Kami menggunakan layanan pihak ketiga berikut:</p>
     <ul>
-      <li><strong>Penyedia layanan pihak ketiga</strong> (mis. Firebase) untuk otentikasi, basis data, penyimpanan, analitik, dan crash reporting.</li>
+      <li><strong>Firebase Authentication (Google):</strong> login dan verifikasi akun.</li>
+      <li><strong>Firebase App Check (Google):</strong> perlindungan terhadap penyalahgunaan API.</li>
+      <li><strong>Supabase:</strong> penyimpanan data latihan, peringkat, konfigurasi aplikasi, dan file gambar soal.</li>
+      <li><strong>Google AdMob:</strong> penayangan iklan banner dan iklan reward opsional.</li>
+      <li><strong>Google Play Billing:</strong> pemrosesan langganan dalam aplikasi.</li>
+    </ul>
+    <p>
+      Masing-masing layanan memiliki kebijakan privasi sendiri.
+      Informasi Firebase: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy</a>.
+      Informasi Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>5. Iklan dan Persetujuan (Consent)</h2>
+    <p>
+      Pengguna gratis dapat melihat iklan Google AdMob (banner dan iklan reward opsional).
+      Pengguna PRO tidak melihat iklan banner.
+    </p>
+    <p>
+      Di wilayah tertentu (misalnya EEA/UK), aplikasi akan meminta persetujuan Anda
+      sebelum menampilkan iklan personalisasi melalui Google User Messaging Platform (UMP).
+      Anda dapat mengubah pilihan privasi iklan melalui menu
+      <strong>Pengaturan Privasi Iklan</strong> di halaman Profil aplikasi,
+      atau melalui pengaturan privasi iklan di perangkat Anda.
+    </p>
+  </section>
+
+  <section>
+    <h2>6. Berbagi Data</h2>
+    <p>Kami <strong>tidak menjual</strong> data pribadi Anda. Data dapat dibagikan kepada:</p>
+    <ul>
+      <li><strong>Penyedia layanan pihak ketiga</strong> (Firebase, Supabase, Google AdMob, Google Play) sejauh diperlukan untuk menjalankan aplikasi.</li>
       <li><strong>Otoritas berwenang</strong> jika diwajibkan secara hukum.</li>
     </ul>
   </section>
 
   <section>
-    <h2>5. Penyimpanan & Keamanan</h2>
+    <h2>7. Penyimpanan & Keamanan</h2>
     <ul>
-      <li>Data disimpan di layanan cloud (mis. Firebase).</li>
-      <li>Kami menerapkan kontrol akses berbasis peran (admin/employee/user) dan koneksi terenkripsi (HTTPS).</li>
+      <li>Data disimpan di layanan cloud (Supabase dan Firebase) dengan koneksi terenkripsi (HTTPS).</li>
+      <li>Kami menerapkan kontrol akses berbasis peran (admin, employee, user).</li>
+      <li>Kata sandi di-hash dan dikelola oleh Firebase Authentication; kami tidak menyimpan kata sandi dalam bentuk teks biasa.</li>
       <li>Tidak ada sistem yang sepenuhnya aman; gunakan kata sandi yang kuat dan jaga kredensial Anda.</li>
     </ul>
   </section>
 
   <section>
-    <h2>6. Retensi</h2>
+    <h2>8. Retensi</h2>
     <ul>
-      <li>Data akun dan hasil tryout disimpan selama akun aktif atau diperlukan untuk layanan.</li>
-      <li>Anda dapat meminta penghapusan akun/data; penghapusan dapat memerlukan waktu pemrosesan.</li>
+      <li>Data akun dan hasil tryout disimpan selama akun aktif atau selama diperlukan untuk layanan.</li>
+      <li>Anda dapat meminta penghapusan akun/data melalui kontak di bawah; penghapusan dapat memerlukan waktu pemrosesan.</li>
     </ul>
   </section>
 
   <section>
-    <h2>7. Hak Pengguna</h2>
+    <h2>9. Hak Pengguna</h2>
     <ul>
-      <li>Akses, koreksi, atau hapus data pribadi (jika berlaku).</li>
-      <li>Menolak atau menonaktifkan analitik tertentu (jika tersedia di pengaturan).</li>
-      <li>Menghubungi kami untuk permintaan terkait data.</li>
+      <li>Mengakses dan memperbarui informasi akun melalui fitur profil.</li>
+      <li>Meminta penghapusan data pribadi dengan menghubungi kami.</li>
+      <li>Menolak iklan personalisasi melalui pengaturan privasi iklan di aplikasi atau perangkat.</li>
+      <li>Upgrade ke langganan PRO untuk menghapus iklan banner.</li>
     </ul>
   </section>
 
   <section>
-    <h2>8. Anak di Bawah Umur</h2>
-    <p>Aplikasi tidak ditujukan untuk anak di bawah 13 tahun. Jika Anda wali dan mengetahui ada data anak terkumpul tanpa izin, hubungi kami untuk penghapusan.</p>
+    <h2>10. Anak di Bawah Umur</h2>
+    <p>
+      Aplikasi ditujukan untuk pengguna dewasa yang mempersiapkan seleksi CPNS
+      dan tidak dirancang untuk anak di bawah 13 tahun.
+      Jika Anda wali dan mengetahui ada data anak terkumpul tanpa izin,
+      hubungi kami untuk penghapusan.
+    </p>
   </section>
 
   <section>
-    <h2>9. Perubahan Kebijakan</h2>
-    <p>Kami dapat memperbarui kebijakan ini. Perubahan signifikan akan diberitahukan melalui aplikasi atau pembaruan di halaman ini.</p>
+    <h2>11. Perubahan Kebijakan</h2>
+    <p>
+      Kami dapat memperbarui kebijakan ini sewaktu-waktu.
+      Perubahan signifikan akan diberitahukan melalui aplikasi atau pembaruan di halaman ini.
+      Tanggal pembaruan terakhir tercantum di bagian atas halaman.
+    </p>
   </section>
 
   <section>
-    <h2>10. Kontak</h2>
+    <h2>12. Kontak</h2>
     <p>Untuk pertanyaan atau permintaan terkait privasi, hubungi:</p>
-    <p><strong>Email:</strong> [email Anda]<br/>
-       <strong>Alamat/telepon (opsional):</strong> [isi jika ada]</p>
+    <p>
+      <strong>Pengelola:</strong> ShopeCasper<br />
+      <strong>Email:</strong> <a href="mailto:shopeecasper@gmail.com">shopeecasper@gmail.com</a>
+    </p>
   </section>
 </body>
 </html>
